@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portofolio — Fachri Ridhwan</title>
+  <meta name="description" content="Portofolio pribadi Fachri Ridhwan." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<div id="loader">
+  <div class="spinner"></div>
+  <h2>Loading...</h2>
+</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Beranda">
+        <span class="brand-icon">
+          <img src="assets/profil.jpg" alt="Foto profil">
+        </span>
+        <span class="brand-text">
+          <strong>Fachri Ridhwan</strong>
+          <small>Portfolio</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="mainNav" aria-label="Menu utama">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+     <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">🌙</button>
+<button class="nav-toggle" id="navToggle" aria-label="Buka menu">☰</button>
+
+    </div>
+  </header>
+
+  <main>
+   
+    <section id="home" class="section hero">
+      <div class="container">
+        <h1>Fachri Ridhwan</h1>
+        <div class="hero-photo-frame" aria-label="Bingkai foto pribadi">
+          <img class="hero-photo-image" src="assets/profil.jpg" alt="Foto profil Fachri Ridhwan">
+        </div>
+        <p class="lead"><span id="typing"></span></p>
+        <div class="hero-cta">
+          <a class="btn" href="#projects">Lihat Proyek</a>
+          <a class="btn ghost" href="#contact">Hubungi</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2>About</h2>
+        <p>Halo semuanya 😁😊 nama saya adalah Fachri Ridhwan, salah satu Mahasiswa Teknik Informatika Universitas Siliwangi Angkatan 2024 yang menyukai pada
+          web development, CyberSec, Automitation dan perkembangan teknologi 
+          lainnya. Dan ini adalah Website Portfolio saya. Dibawah ini ada info lebih detail tentang saya.</p>
+        <ul class="meta">
+          <li><strong>Email:</strong> fachriridhwan15@gmail.com</li>
+          <li><strong>Lokasi:</strong> Tasikmalaya, Jawa Barat, Indonesia</li>
+        </ul>
+
+        <div class="education-block">
+          <h3>Riwayat Pendidikan</h3>
+          <div class="edu-list">
+            <article class="edu-item">
+              <div class="edu-logo">
+                <img src="assets/unsil.jpg" alt="Logo Universitas Siliwango">
+              </div>
+              <div class="edu-content">
+                <h4>Universitas Siliwangi</h4>
+                <p>S1 Teknik Informatika</p>
+                <p class="edu-period">2024 - Sekarang</p>
+              </div>
+            </article>
+
+            <article class="edu-item">
+              <div class="edu-logo">
+                <img src="assets/sma.webp" alt="Logo SMA Negeri 1 Purbalingga">
+              </div>
+              <div class="edu-content">
+                <h4>SMA Negeri 1 Purbalingga</h4>
+                <p>Jurusan MIPA</p>
+                <p class="edu-period">2021 - 2024</p>
+          </div>
+          </article>
+
+            <article class="edu-item">
+              <div class="edu-logo">
+                <img src="assets/smp.jpg" alt="Logo SMP Negeri 1 Purbalingga">
+              </div>
+              <div class="edu-content">
+                <h4>SMP Negeri 1 Purbalingga</h4>
+                <p class="edu-period">2018 - 2021</p>
+                <br>
+              </div>
+            </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid projects-grid">
+          <article class="card">
+            <h3>Bot WhatsApp Menggunakan Library Baileys</h3>
+            <h4>Project Pribadi</h4>
+            <p>Mengembangkan bot WhatsApp menggunakan
+Node.js dan JavaScript.
+- Integrasi Google API, OpenRouter API, dan
+layanan eksternal lainnya.
+- Implementasi auto-reply dan pemrosesan perintah.
+</p>
+            <img class="project-demo" src="assets/SSbot.jpg" alt="Demo project bot WhatsApp">
+            <img class="project-demo" src="assets/SSbot2.jpg" alt="Demo tambahan project bot WhatsApp">
+            <p class="muted">Node.js • JavaScript </p>
+          </article>
+
+          <article class="card">
+            <h3>Website Profile RevoU</h3>
+            <h4>Project Pribadi</h4>
+            <p>Membuat dan Mengembangkan Website Profil PT Revolusi Cita Edukasi sebagai output untuk Course 1 Week Software Engineering menggunakan CSS, HTML, JavaScript</p>
+            <img class="project-demo" src="assets/SSrevou.png" alt="Demo project website profile RevoU">
+            <img class="project-demo" src="assets/SSRevou2.png" alt="Demo tambahan project website profile RevoU">
+            <p class="muted">HTML • CSS • JavaScript</p>
+          </article>
+
+          <article class="card">
+            <h3>Vision Beta (aplikasi AR menggunakan Unity)</h3>
+            <h4>Project Tim</h4>
+            <p>Mengembangkan aplikasi AR menggunakan Unity & Vuforia, menerapkan konsep pemindaian pada kartu dan memunculkan Object 3D. Mengimplementasikan pembuatan package APK berbasis Andorid Bernama Vision Beta.</p>
+            <img class="project-demo" src="assets/SSar.jpg" alt="Demo project Vision Beta AR">
+            <img class="project-demo" src="assets/SSar2.jpg" alt="Demo tambahan project Vision Beta AR">
+            <p class="muted">Unity • Vuforia</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <div class="container">
+        <h2>Experience & Certificates</h2>
+        <div class="experience-layout">
+          <div class="experience-list">
+            <article class="experience-item">
+              <p class="xp-period">2025</p>
+              <h3>Website Statistik Data Kependudukan
+Indonesia (2021–2024)</h3>
+              <p>Proyek Akademik (Tim)
+- Mengembangkan website statistik berbasis HTML,
+CSS, PHP, dan MySQL.
+- Merancang struktur database dan pengolahan data
+dinamis.
+- Berkolaborasi dalam tim untuk integrasi dan
+pengujian sistem.
+</p>
+            </article>
+            <article class="experience-item">
+              <p class="xp-period">2025</p>
+              <h3>Custom Linux Distro Berbasis Ubuntu</h3>
+              <p>Proyek Akademik – Sistem Operasi
+- Membangun dan mengonfigurasi distro Linux
+berbasis Ubuntu.
+- Menerapkan konsep proses, manajemen memori,
+dan sistem file.
+-Mendukung operasional teknis dan kesiapan sistem
+selama project.
+</p>
+            </article>
+
+            </article>
+            <article class="experience-item">
+              <p class="xp-period">2025</p>
+              <h3>Aplikasi Augmented Reality
+</h3>
+              <p>IT Bootcamp Informatika 2025 (Tim)
+- Mengembangkan aplikasi AR menggunakan Unity.
+- Implementasi objek 3D dan interaksi dasar.
+- Didukung sertifikat resmi IT Bootcamp Augmented
+Reality</p>
+            </article>
+
+
+          </div>
+
+          <div class="cert-grid">
+            <article class="cert-card">
+              <img class="cert-logo" src="assets/itboot.png" alt="Logo IT Boot Camp">
+              <h3>Augmented Reality Class</h3>
+              <p class="cert-meta">IT Boot Camp 2025 Department of Informatics</p>
+            </article>
+            <article class="cert-card">
+              <img class="cert-logo" src="assets/revou.png" alt="Logo RevoU">
+              <h3>1 Week Course of Software Engineering</h3>
+              <p class="cert-meta">CodingCamp by RevoU 2026</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="section reveal">
+      <div class="container contact-wrap">
+        <h2>Contact</h2>
+        <p>Hubungi saya langsung lewat sosial media berikut.</p>
+        <div class="contact-social" aria-label="Social media links">
+          <a href="https://www.instagram.com/fcdh_dx?igsh=bHgzOG9sbHd5MmZs" aria-label="Instagram"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a>
+          <a href="https://www.tiktok.com/@fcdh_15?_r=1&_t=ZS-93paEkup9c8" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i><span>TikTok</span></a>
+          <a href="https://youtube.com/@fachriridhwan8293?si=sYyNV4nrfnMEmf7f" aria-label="YouTube"><i class="fa-brands fa-youtube"></i><span>YouTube</span></a>
+          <a href="https://www.linkedin.com/in/fachri-ridhwan15" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i><span>LinkedIn</span></a>
+          <a href="https://github.com/1RDHWN1" aria-label="GitHub"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+          <a href="https://wa.me/6281772314507" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<div class="social-float" id="socialFloat">
+  <button class="social-toggle" id="socialToggle" aria-label="Buka social links" aria-expanded="false">
+    <i class="fa-solid fa-link"></i>
+  </button>
+  <div class="social-panel" id="socialPanel">
+    <a class="social-item" href="https://www.instagram.com/fcdh_dx?igsh=bHgzOG9sbHd5MmZs" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a class="social-item" href="https://www.tiktok.com/@fcdh_15?_r=1&_t=ZS-93paEkup9c8" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+    <a class="social-item" href="https://youtube.com/@fachriridhwan8293?si=sYyNV4nrfnMEmf7f" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <a class="social-item" href="www.linkedin.com/in/fachri-ridhwan15" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a class="social-item" href="https://github.com/1RDHWN1" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a class="social-item" href="https://wa.me/6281772314507" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  </div>
+</div>
+
+<div class="image-preview" id="imagePreview" aria-hidden="true">
+  <button class="image-preview-close" id="imagePreviewClose" aria-label="Tutup preview">×</button>
+  <img id="imagePreviewTarget" src="" alt="Preview gambar project">
+</div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>©2026 <span id="year"></span> Fachri Ridhwan — Portofolio pribadi</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
